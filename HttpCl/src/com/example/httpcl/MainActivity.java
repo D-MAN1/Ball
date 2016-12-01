@@ -50,8 +50,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		tv=(TextView)findViewById(R.id.textView1);
-	
-		telephony();
+	    telephony();//************
 		wifi();
 		connectYandexLocator();
 		
